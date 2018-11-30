@@ -1,13 +1,1 @@
 language: java
-
-jdk:
-  - oraclejdk8
-
-sudo: false
-
-notifications:
-  email:
-    -recipients:
-    - antnmslv@gmail.com
-    on_success: never
-    on_failure: always
