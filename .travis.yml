@@ -4,8 +4,3 @@ jdk:
 
 services:
 - postgresql
-
-before_script:
-- psql -c "CREATE DATABASE contacts;" -U postgres
-- psql -c "CREATE USER postgres WITH PASSWORD 'postgres';" -U postgres
-- psql -c "ALTER USER postgres WITH SUPERUSER;" -U postgres
